@@ -1,0 +1,141 @@
+.attribution {
+  color: hsl(217, 12%, 63%);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 20%;
+  right: 20%;
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.display {
+  display: none;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  width: 400px;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 30px;
+  border-radius: 20px;
+  /* margin: -70px 0 0 -170px; */
+}
+
+.ctnSubmit {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  font-size: 15px;
+}
+
+.rateBtn {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+
+  border-radius: 100%;
+  /* font-size: large; */
+  border: none;
+
+  width: 50px;
+  height: 50px;
+  /* padding: 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 2px 11px 36px 5px rgba(0, 0, 0, 0.36);
+  box-shadow: 2px 11px 36px 5px rgba(0, 0, 0, 0.36);
+}
+
+.rateBtn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.rateBtn:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+  box-shadow: none;
+}
+
+.ratingScore {
+  margin: 20px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 8px;
+  padding: 2px;
+  color: hsl(25, 97%, 53%);
+  -webkit-box-shadow: 2px 11px 36px 5px rgba(0, 0, 0, 0.36);
+  box-shadow: 2px 11px 36px 5px rgba(0, 0, 0, 0.36);
+}
+
+.star {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+
+  padding: 10px;
+  -webkit-box-shadow: 2px 11px 36px 5px rgba(0, 0, 0, 0.36);
+  box-shadow: 2px 11px 36px 5px rgba(0, 0, 0, 0.36);
+}
+
+.submitBtn {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border-radius: 50px;
+}
+
+.submitBtn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+/* .btn:focus {
+  box-shadow: none;
+} */
+
+@media screen and (max-width: 660px) {
+  .rateBtn {
+    width: 50px;
+    height: auto;
+    margin: 7px;
+  }
+  /* .submitBtn {
+    margin-top: 20px;
+  } */
+  .container {
+    width: 300px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* margi80n: -70px 0 0 -170px; */
+  }
+  .submitBtn {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+}
